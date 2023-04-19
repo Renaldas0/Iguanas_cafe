@@ -15,15 +15,21 @@
 <body>
     <nav class="navbar fixed-top">
         <div class="container-fluid">
-            <div>
-                <h1 class="logo">
-                    Iguana's Cafe
-                </h1>
+            <div class="logo-container">
+                <div class="logo-text">
+                    <h1 class="logo">
+                        Iguana's <em>Cafe</em>
+                    </h1>
+                </div>
+
+                <div class="logo-img-container">
+                    <img class="logo-img" src="/media/images/logo.png" alt="">
+                </div>
             </div>
             <div>
                 <ul class="list-group list-group-horizontal list-unstyled">
                     <li class="list-item"><a href="">Home</a></li>
-                    <li class="list-item"><a href="">Menu</a></li>
+                    <li class="list-item"><a href="menu">Menu</a></li>
                     <li class="list-item"><a href="">Our Coffee</a></li>
                     <li class="list-item"><a href="">Location</a></li>
                     <li class="list-item"><a href="">Contact Us</a></li>
@@ -33,6 +39,12 @@
     </nav>
     <div class="container-fluid img-container g-0">
         <img src="/media/images/cafe.jpg" alt="image of Iguana's cafe">
+        <div>
+            <h2 class="text-capitalize text-light motto">Our motto will be here!</h2>
+        </div>
+    </div>
+    <div class="container-fluid to-menu-btn-container">
+        <button class="to-menu-btn"><a href="#menu" class="to-menu-link">Our Menu</a></button>
     </div>
 
 
