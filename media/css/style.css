@@ -55,6 +55,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
+/*
 .to-menu-btn-container {
     text-align: center;
     margin-top: 30px;
@@ -71,12 +72,15 @@ img {
     color: #0d360d;
     text-decoration: none;
 }
+*/
 
 .menus-container {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .menu {
     border: 2px solid #fff;
+    padding: 20px;
 }
