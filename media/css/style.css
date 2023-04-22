@@ -6,6 +6,15 @@
     padding: 0;
 }
 
+/*General Rules*/
+.gold-font {
+    color: #f9c700;
+}
+
+.icon {
+    margin-left: 5px;
+}
+
 body {
     font-family: 'Libre Baskerville', serif;
     background-color: #08352e;
