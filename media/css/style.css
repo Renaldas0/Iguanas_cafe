@@ -65,29 +65,11 @@ img {
 
 .motto {
     position: absolute;
+    font-size: 2.4rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-/*
-.to-menu-btn-container {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.to-menu-btn {
-    border: 0;
-    border-radius: 10px;
-    padding: 10px 15px;
-}
-
-.to-menu-link {
-    padding: 5px 10px;
-    color: #0d360d;
-    text-decoration: none;
-}
-*/
 
 .menu-header {
     display: flex;
@@ -101,7 +83,6 @@ img {
 
 #menus-container {
     display: flex;
-    justify-content: center;
     margin: 50px 0 30px;
     border: 9px solid #dddddd;
     width: 80vw;
