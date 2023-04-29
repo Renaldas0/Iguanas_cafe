@@ -98,3 +98,7 @@ img {
 .menu-img img {
     max-height: 600px;
 }
+
+#location iframe {
+    border: 5px solid #f9c700;
+}
