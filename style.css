@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*General Rules*/
+.gold-font {
+    color: #f9c700;
+}
+
+.icon {
+    margin-left: 5px;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #08352e;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.logo-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.logo {
+    color: #f9c700;
+}
+
+.logo-img {
+    width: 60px;
+    height: 70px;
+}
+
+.list-item a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #08352e;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+a:hover {
+    color: white;
+    box-shadow: inset 120px 0 0 0 #08352e;
+}
+
+img {
+    width: 100%;
+    height: 90vh;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.motto {
+    position: absolute;
+    font-size: 2.4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: center;
+}
+
+#menus-container {
+    display: flex;
+    margin: 50px 0 30px;
+    border: 9px solid #dddddd;
+    width: 80vw;
+}
+
+.menu {
+    min-height: 600px;
+    padding: 20px;
+    background-color: #fff;
+    color: #08352e;
+}
+
+.menu-img img {
+    max-height: 600px;
+}
+
+.location-header {
+    color: #f9c700;
+    font-size: 30px;
+}
+
+#location iframe {
+    border: 5px solid #f9c700;
+}
+
+#contact {
+    min-height: 500px;
+    background-color: #fff;
+    position: relative;
+}
+
+#contact h4 {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 50px;
+}
+
+.contact-container {
+    border: 1px dotted #8d8d8d;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.contact-container h5 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.contact-container ul {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    line-height: 40px;
+}
