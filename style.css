@@ -84,7 +84,7 @@ img {
 #menus-container {
     display: flex;
     margin: 50px 0 30px;
-    border: 9px solid #dddddd;
+    border: 2px solid #dddddd;
     width: 80vw;
 }
 
@@ -111,31 +111,8 @@ img {
 #contact {
     min-height: 500px;
     background-color: #fff;
-    position: relative;
 }
 
 #contact h4 {
-    position: absolute;
-    top: 30px;
-    left: 10px;
     font-size: 50px;
-}
-
-.contact-container {
-    border: 1px dotted #8d8d8d;
-    margin: 10px 20px;
-    position: relative;
-}
-
-.contact-container h5 {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-}
-
-.contact-container ul {
-    position: absolute;
-    top: 30%;
-    left: 15%;
-    line-height: 40px;
 }
