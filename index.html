@@ -1,201 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/0fc8d7e1ea.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0fc8d7e1ea.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Iguana's Cafe Killarney</title>
-</head>
+  </head>
 
-<body>
-    <nav class="navbar fixed-top">
-        <div class="container-fluid">
-            <div class="logo-container">
-                <div class="logo-text">
-                    <h1 class="logo">
-                        Iguana's <em>cafe</em>
-                    </h1>
-                </div>
-
-                <div class="logo-img-container">
-                    <img class="logo-img" src="images/logo.png" alt="">
-                </div>
-            </div>
-            <div>
-                <ul class="list-group list-group-horizontal list-unstyled nav-links">
-                    <li class="list-item nav-link"><a href="#home">Home</a></li>
-                    <li class="list-item nav-link"><a href="#menus-container">Menu</a></li>
-                    <li class="list-item nav-link"><a href="#about">Our Coffee</a></li>
-                    <li class="list-item nav-link"><a href="#location">Location</a></li>
-                    <li class="list-item nav-link"><a href="">Contact Us</a></li>
-                </ul>
-            </div>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="logo-container">
+          <h1 class="logo logo-text">Iguana's <em>cafe</em></h1>
+          <img class="logo-img" src="images/logo.png" alt="" />
         </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav list-group list-group-horizontal list-unstyled nav-links"
+          >
+            <li class="nav-item list-item nav-link">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item list-item nav-link">
+              <a class="nav-link" href="#menu-container">Menu</a>
+            </li>
+            <li class="nav-item list-item nav-link">
+              <a class="nav-link" href="#about">Our Coffee</a>
+            </li>
+            <li class="nav-item list-item nav-link">
+              <a class="nav-link" href="#location">Location</a>
+            </li>
+            <li class="nav-item list-item nav-link">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <div class="container-fluid img-container g-0" id="home">
-        <img src="images/cafe.jpg" alt="image of Iguana's cafe">
-        <div>
-            <h2 class="text-capitalize text-light motto">Our motto will be here!</h2>
-        </div>
+      <div>
+        <h2 class="text-capitalize text-light motto">
+          Our motto will be here!
+        </h2>
+      </div>
     </div>
 
-    <div class="row g-0 menu-row">
-        <div id="menus-container">
-            <div class="col-md-4 text-capitalize menu text-center">
-                <ul class="list-group">
-                    <h4 class="mt-2 text-center text-decoration-underline gold-font">Hot food<span
-                            class="icon"></span><i class="fas fa-hotdog"></i></h4>
-                    <li class="list-item list-unstyled">
-                        Lorem............................................................... €3</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                </ul>
-                <ul class="list-group">
-                    <h4 class="mt-2 text-center text-decoration-underline gold-font">Desserts<span class="icon"><i
-                                class="fas fa-cookie"></i></span></h4>
-                    <li class="list-item list-unstyled ">
-                        Banana Bread........................................................ €3</li>
-                    <li class="list-item list-unstyled ">
-                        Lemon Drizzle....................................................... €3.2</li>
-                    <li class="list-item list-unstyled ">
-                        White Choc Chip Cookie.............................................. €2.5</li>
-                    <li class="list-item list-unstyled ">
-                        Triple Choc Cookie.................................................. €2.5</li>
-                    <li class="list-item list-unstyled ">
-                        Choc Chip Cookie.................................................... €2.5</li>
-                    <li class="list-item list-unstyled ">
-                        Energy Ball......................................................... €2.2</li>
-                    <li class="list-item list-unstyled ">
-                        Chocolate Fudge Brownie............................................. €3.2</li>
-                    <li class="list-item list-unstyled ">
-                        Rocky Road.......................................................... €4</li>
-                </ul>
+    <div class="container-fluid">
+      <div class="row menu-row">
+        <div id="menu-container">
+          <div class="row">
+            <h3 class="text-center">Drinks</h3>
+            <div class="col-lg-4 col-md-6 col-12">
+              <h4 class="text-center">Hot</h4>
+              <hr />
+              <ul class="list-unstyled">
+                <li>Espresso</li>
+                <li>Americano</li>
+                <li>Cappuccino</li>
+                <li>Latte</li>
+                <li>Flat White</li>
+                <li>Mocha</li>
+                <li>Cortado</li>
+                <li>Matcha Latte</li>
+                <li>Chai Latte</li>
+                <li>Hot Chocolate</li>
+                <li>Kids Hot Chocolate</li>
+                <li>Babycino</li>
+                <li>Irish Breakfast Tea</li>
+                <li>Herbal Tea</li>
+              </ul>
             </div>
-            <div class="col-md-4 menu-img">
-                <img src="images/iguana_logo(1).jpg" alt="">
+            <div class="col-lg-4 col-md-6 col-12">
+              <h4 class="text-center">Cold</h4>
+              <hr />
+              <ul class="list-unstyled">
+                <li>Iced Chai Latte</li>
+                <li>Iced Matcha Latte</li>
+                <li>Iced Latte</li>
+                <li>Iced Chocolate</li>
+                <li>Iced Coffee</li>
+                <li>Iced Tea</li>
+              </ul>
             </div>
-
-            <div class="col-md-4 text-capitalize menu text-center">
-                <ul class="list-group">
-                    <h4 class="mt-2 text-decoration-underline gold-font">Hot Drinks<span class="icon"><i
-                                class="fas fa-mug-hot"></i></span></h4>
-                    <li class="list-item list-unstyled">
-                        Espresso............................................................... €3</li>
-                    <li class="list-item list-unstyled">
-                        Americano............................................................... €3.2</li>
-                    <li class="list-item list-unstyled">
-                        Cappuccino............................................................... €3.6</li>
-                    <li class="list-item list-unstyled">
-                        Latte............................................................... €3.6</li>
-                    <li class="list-item list-unstyled">
-                        Flat White............................................................... €3.4</li>
-                    <li class="list-item list-unstyled">
-                        Mocha............................................................... €3.9</li>
-                    <li class="list-item list-unstyled">
-                        Cortado............................................................... €3.2</li>
-                    <li class="list-item list-unstyled">
-                        Match Latte............................................................... €4.2</li>
-                    <li class="list-item list-unstyled">
-                        Chai Latte............................................................... €3.9</li>
-                    <li class="list-item list-unstyled">
-                        Hot Chocolate............................................................... €3.8</li>
-                    <li class="list-item list-unstyled">
-                        Kids Hot Choc............................................................... €2.8</li>
-                    <li class="list-item list-unstyled">
-                        Babycino............................................................... €1.2</li>
-                </ul>
-                <ul class="list-group">
-                    <h4 class="mt-2 text-center text-decoration-underline gold-font">Cold Drinks<span class="icon"><i
-                                class="fas fa-coffee"></i></span></h4>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                    <li class="list-item list-unstyled">
-                        lorem............................................................... €10</li>
-                </ul>
+            <div class="col-lg-4 col-md-10 col-12">
+              <h4 class="text-center">Add-ons</h4>
+              <hr />
+              <ul class="list-unstyled">
+                <li>Extra Shot</li>
+                <li>Almond Syrup</li>
+                <li>Hazelnut Syrup</li>
+                <li>Caramel Syrup</li>
+                <li>Almond Milk</li>
+                <li>Oat Milk</li>
+                <li>Coconut Milk</li>
+              </ul>
             </div>
+          </div>
+          <div class="row">
+            <h3 class="text-center">Food</h3>
+            <div class="col-md-6 col-12"><h4 class="text-center">Hot</h4></div>
+            <div class="col-md-6 col-12">
+              <h4 class="text-center">Desserts</h4>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+
     <div id="about" class="row about-coffee text-light g-0">
-        <div class="col-md-6 offset-md-1">
-            <h4>A quick note <em class="text-capitalize">about our coffee</em></h4>
-            <p>The coffee beans we use at <em>Iguana's cafe</em> are the <strong><a class="text-decoration-none"
-                        href="https://badgeranddodo.ie/">Badger & DoDo</a></strong> coffee beans that are packed with
-                flavour!
-            </p>
-            <p>Badger & DoDo have been sourcing the best coffee
-                beans since 2008 from: Kenya, Uganda, Rwanda, Ethiopia, Colombia, Brazil, Peru, Mexico, Ecuador, El
-                Salvador, Guatemala, Costa Rica, Nicaragua, Honduras, Panama, Tanzania, Malawi and Indonesia.</p>
-            <p>We currently use coffee beans sourced from Columbia.....</p>
-        </div>
+      <div class="col-md-6 offset-md-1">
+        <h4>A quick note <em class="text-capitalize">about our coffee</em></h4>
+        <p>
+          The coffee beans we use at <em>Iguana's cafe</em> are the
+          <strong
+            ><a class="text-decoration-none" href="https://badgeranddodo.ie/"
+              >Badger & DoDo</a
+            ></strong
+          >
+          coffee beans that are packed with flavour!
+        </p>
+        <p>
+          Badger & DoDo have been sourcing the best coffee beans since 2008
+          from: Kenya, Uganda, Rwanda, Ethiopia, Colombia, Brazil, Peru, Mexico,
+          Ecuador, El Salvador, Guatemala, Costa Rica, Nicaragua, Honduras,
+          Panama, Tanzania, Malawi and Indonesia.
+        </p>
+        <p>We currently use coffee beans sourced from Columbia.....</p>
+      </div>
     </div>
     <div id="location" class="row g-0">
-        <h4 class="location-header text-center">Find us Here!</h4>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.969254079971!2d-9.517301587562969!3d52.048596585960574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48453deae0f00533%3A0x43d6d0dbc4fc5718!2sIguanas%20cafe!5e0!3m2!1sen!2sie!4v1682783171911!5m2!1sen!2sie"
-            height="450px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            class="col-md-8 offset-md-2"></iframe>
+      <h4 class="location-header text-center">Find us Here!</h4>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.969254079971!2d-9.517301587562969!3d52.048596585960574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48453deae0f00533%3A0x43d6d0dbc4fc5718!2sIguanas%20cafe!5e0!3m2!1sen!2sie!4v1682783171911!5m2!1sen!2sie"
+        height="450px"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="col-md-8 offset-md-2"
+      ></iframe>
     </div>
     <div id="contact" class="row g-0 mt-3 justify-content-center">
-        <h4 class="text-center">Contact Us</h4>
-        <div class="col-md-4 contact-container">
-            <h5>Feel free to reach out to us with any questions!</h5>
-            <ul>
-                <li>Email: iguanascafe2022@gmail.com</li>
-                <li>Phone: +353 83 057 1037</li>
-                <li>Facebook: <a href="https://www.facebook.com/iguanascafe/" class="text-decoration-none">Iguana's
-                        Cafe</a></li>
-                <li>Address: Iguanas Cafe, Killarney Racecourse, Ross Road, Killarney, Ireland</li>
-            </ul>
-        </div>
-        <div class="col-md-4 contact-container">
-            <h5>Opening Times</h5>
-            <ul>
-                <li>Monday - Sunday: 8am-5pm</li>
-            </ul>
-        </div>
+      <h4 class="text-center">Contact Us</h4>
+      <div class="col-md-4 contact-container">
+        <h5>Feel free to reach out to us with any questions!</h5>
+        <ul>
+          <li>Email: iguanascafe2022@gmail.com</li>
+          <li>Phone: +353 83 057 1037</li>
+          <li>
+            Facebook:
+            <a
+              href="https://www.facebook.com/iguanascafe/"
+              class="text-decoration-none"
+              >Iguana's Cafe</a
+            >
+          </li>
+          <li>
+            Address: Iguanas Cafe, Killarney Racecourse, Ross Road, Killarney,
+            Ireland
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 contact-container">
+        <h5>Opening Times</h5>
+        <ul>
+          <li>Monday - Sunday: 8am-5pm</li>
+        </ul>
+      </div>
     </div>
 
-
-
     <!-- Bootstrap JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
