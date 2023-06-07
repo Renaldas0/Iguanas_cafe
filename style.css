@@ -33,11 +33,12 @@ nav {
 
 .logo {
     color: #f9c700;
+    font-size: 1.6rem;
 }
 
 .logo-img {
-    width: 60px;
-    height: 70px;
+    width: 55px;
+    height: 65px;
 }
 
 .navbar-collapse {
@@ -49,10 +50,11 @@ nav {
     padding: 0 10px;
     text-decoration: none;
     color: #08352e;
-    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    font-size: 0.9rem;
+    transition: color .5s ease-in-out, box-shadow .4s ease-in-out;
 }
 
-a:hover {
+.list-item a:hover {
     color: white;
     box-shadow: inset 120px 0 0 0 #08352e;
 }
@@ -69,7 +71,7 @@ img {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 80vh;
     position: relative;
     text-align: center;
     color: white;
@@ -83,13 +85,14 @@ img {
     transform: translate(-50%, -50%);
 }
 
-.menu-row {
-    min-height: 80vh;
-}
-
-#menu-container {
-    border: 2px silver solid;
-    color: #fff;
+.info-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    color: #000;
+    margin-top: 40px;
+    background-color: #fff;
 }
 
 .location-header {
