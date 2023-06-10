@@ -20,6 +20,10 @@ body {
     background-color: #08352e;
 }
 
+.navbar {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
 .logo-container {
     display: grid;
     align-items: center;
@@ -27,9 +31,10 @@ body {
     column-gap: 5px;
 }
 
-.logo {
+.logo a {
     color: #f9c700;
     font-size: 1.6rem;
+    text-decoration: none;
 }
 
 .logo-img {
@@ -80,8 +85,43 @@ img {
     font-size: 2.4rem;
 }
 
+.menu-btn {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #08352e;
+    float: right;
+}
+
+.menu-btn a {
+    text-decoration: none;
+    color: #f9c700;
+}
+
+.motto-para, .menu-btn {
+    display: inline-block;
+}
+
+.menu-container{
+    margin-top: 60px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    background-color: #062924;
+}
+
+.info-container {
+    margin-top: 60px;
+}
+
 .info-table {
     border: 2px solid #fff;
+    color: #fff;
+}
+
+.drinks{
+    display: grid;
 }
 
 .times-list-item {
@@ -102,13 +142,12 @@ img {
     font-size: 30px;
 }
 
-#location iframe {
-    border: 5px solid #f9c700;
+#location {
+    margin-top: 60px;
 }
 
-#contact {
-    min-height: 500px;
-    background-color: #fff;
+#location iframe {
+    border: 5px solid #f9c700;
 }
 
 #contact h4 {

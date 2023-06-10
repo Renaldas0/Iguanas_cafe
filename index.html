@@ -23,7 +23,9 @@
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary p-0">
       <div class="container-fluid">
         <div class="logo-container">
-          <h1 class="logo logo-text">Iguana's <em>cafe</em></h1>
+          <h1 class="logo logo-text">
+            <a href="#home">Iguana's <em>cafe</em></a>
+          </h1>
           <img class="logo-img" src="images/logo.png" alt="" />
         </div>
 
@@ -43,7 +45,7 @@
             class="navbar-nav list-group list-group-horizontal list-unstyled nav-links"
           >
             <li class="nav-item list-item nav-link">
-              <a class="nav-link" href="#menu-container">Menu</a>
+              <a class="nav-link" href="#menu">Menu</a>
             </li>
             <li class="nav-item list-item nav-link">
               <a class="nav-link" href="#about">Our Coffee</a>
@@ -61,15 +63,89 @@
     <div class="container-fluid img-container g-0" id="home">
       <div class="motto-wrapper">
         <h2 class="text-capitalize text-light motto">
-          Our motto will be here!
+          Start your day with a Delicious cup of coffee!
         </h2>
-        <button>Full Menu</button>
+        <p class="motto-para">
+          Check our ENTIRE menu with the click of a button<span class="icon"
+            ><i class="fa-solid fa-chevron-right"></i
+          ></span>
+        </p>
+        <button class="menu-btn"><a href="#menu">Full Menu</a></button>
       </div>
     </div>
-
-    <div class="container-fluid">
+    <section class="container-fluid" id="menu">
       <div class="row">
-        <div class="col-md-10 offset-md-1">
+        <div class="col-md-10 offset-md-1 menu-container">
+          <div class="row">
+            <div class="col-4 drinks">
+              <h4 class="text-center gold-font drinks">Drinks</h4>
+              <h5>Hot Drinks</h5>
+              <ul class="list-unstyled">
+                <li>Espresso</li>
+                <li>Americano</li>
+                <li>Cappuccino</li>
+                <li>Latte</li>
+                <li>Flat White</li>
+                <li>Mocha</li>
+                <li>Cortado</li>
+                <li>Matcha Latte</li>
+                <li>Chai Latte</li>
+                <li>Hot Chocolate</li>
+                <li>Kids Hot Choc</li>
+                <li>Babycino</li>
+                <li>Irish breakfast Tea</li>
+                <li>Herbal Tea</li>
+              </ul>
+              <h5>Cold Drinks</h5>
+              <ul class="list-unstyled">
+                <li>Iced Chai Latte</li>
+                <li>Iced Matcha Latte</li>
+                <li>Iced Fkavoured Latte</li>
+                <li>Iced Chocolate</li>
+                <li>Iced Cofee</li>
+                <li>Iced Tea</li>
+              </ul>
+            </div>
+            <div class="col-4 food">
+              <h4 class="text-center gold-font">Food</h4>
+              <h5>Hot Food</h5>
+              <ul class="list-unstyled">
+                <li>Toasted Sandwich</li>
+                <li>Soup of the day</li>
+              </ul>
+              <h5>Desserts</h5>
+              <ul class="list-unstyled">
+                <li>Banana Bread</li>
+                <li>Lemon Drizzle</li>
+                <li>Energy Ball</li>
+                <li>Cookie</li>
+                <li>Chocolate Fudge Brownie</li>
+                <li>Vegan Raspberry Crumble</li>
+                <li>Peanut Caramel</li>
+                <li>Carrot Cake</li>
+                <li>Flapjack</li>
+                <li>Oreo Cheese Cake</li>
+                <li>Peanut Rawball</li>
+                <li>Coconut Rawball</li>
+                <li>Granola pot</li>
+              </ul>
+            </div>
+            <div class="col-4 add-ons">
+              <h4 class="text-center gold-font">Add-ons</h4>
+              <ul class="list-unstyled">
+                <li>Extra shot</li>
+                <li>Syrup - Almond / Caramel / Hazelnut</li>
+                <li>Oat milk /Almond milk / Coconut milk</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 info-container">
           <div class="row">
             <div class="col-4 info-table contact-table">
               <h5 class="text-center">
@@ -96,7 +172,7 @@
                 Killarney, Ireland
               </address>
             </div>
-            <div class="col-4 info-table">
+            <div class="col-4 info-table" id="about">
               <img src="" alt="" />
               <h5 class="text-center">About Our Coffee</h5>
               <p>
@@ -147,40 +223,28 @@
           </div>
         </div>
       </div>
-    </div>
-    <div id="location" class="row g-0">
-      <h4 class="location-header text-center">Find us Here!</h4>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.969254079971!2d-9.517301587562969!3d52.048596585960574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48453deae0f00533%3A0x43d6d0dbc4fc5718!2sIguanas%20cafe!5e0!3m2!1sen!2sie!4v1682783171911!5m2!1sen!2sie"
-        height="450px"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        class="col-md-8 offset-md-2"
-      ></iframe>
-    </div>
-    <div id="contact" class="row g-0 mt-3 justify-content-center">
-      <h4 class="text-center">Contact Us</h4>
-      <div class="col-md-4 contact-container">
-        <h5>Feel free to reach out to us with any questions!</h5>
-        <ul>
-          <li>Email: iguanascafe2022@gmail.com</li>
-          <li>Phone: +353 83 057 1037</li>
-          <li>
-            Facebook:
-            <a
-              href="https://www.facebook.com/iguanascafe/"
-              class="text-decoration-none"
-              >Iguana's Cafe</a
-            >
-          </li>
-          <li>
-            Address: Iguanas Cafe, Killarney Racecourse, Ross Road, Killarney,
-            Ireland
-          </li>
-        </ul>
+    </section>
+    <section class="container-fluid">
+      <div id="location" class="row g-0">
+        <h4 class="location-header text-center">Find us Here!</h4>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.969254079971!2d-9.517301587562969!3d52.048596585960574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48453deae0f00533%3A0x43d6d0dbc4fc5718!2sIguanas%20cafe!5e0!3m2!1sen!2sie!4v1682783171911!5m2!1sen!2sie"
+          height="450px"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="col-md-8 offset-md-2"
+        ></iframe>
       </div>
-    </div>
+    </section>
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5"></div>
+          <span>Copyright &copy; 2023 Iguana cafe</span>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap JS CDN -->
     <script
