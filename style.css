@@ -116,6 +116,10 @@ img {
     background-color: #062924;
 }
 
+.menu-item > span {
+    float: right;
+}
+
 .info-container {
     margin-top: 60px;
 }
