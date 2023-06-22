@@ -136,11 +136,32 @@ img {
 .times-list-item {
     list-style: none;
 }
+
+/*=======================================Info Tables===========================*/
+.menu-sub-heading {
+    text-decoration: underline;
+}
+.contact-table {
+    min-height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/iguana-cafe-img.JPG') center center;
+    color: #fff;
+}
+
+.contact-list-group{
+    text-align: left;
+}
+
 .contact-list-item {
     list-style: none;
 }
 
-.contact-table {
+.about-table {
+    min-height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/cafe.jpg') center center;
+    color: #fff;
+}
+
+.hours-table {
     min-height: 300px;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/contact-times-bg.jpg');
     color: #fff;
