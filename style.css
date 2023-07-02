@@ -112,7 +112,7 @@ img {
     border: 2px solid #000;
     border-radius: 5px;
     color: #fff;
-    background-color: #062924;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/cafe-layout-bg.jpg') no-repeat center center;
 }
 
 .menu-item > span {
