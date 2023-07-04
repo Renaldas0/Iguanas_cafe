@@ -211,3 +211,10 @@ img {
         justify-content: start;
     }
 }
+
+@media screen and (max-width:991px) {
+    .menu-btn{
+        float: none;
+        margin-left: 10px;
+    }
+}
