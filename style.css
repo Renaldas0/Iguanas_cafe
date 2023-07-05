@@ -149,7 +149,7 @@ img {
 }
 .contact-table {
     min-height: 300px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/iguana-cafe-img.JPG') center center;
+    background: linear-gradient(rgba(8, 53, 46), rgba(238, 255, 0, 0.479), rgba(8, 53, 46));
     color: #fff;
 }
 
@@ -175,13 +175,13 @@ img {
 
 .about-table {
     min-height: 300px;
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/cafe.jpg') center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/iguana-cafe-img.JPG') center center;
     color: #fff;
 }
 
 .hours-table {
     min-height: 300px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/contact-times-bg.jpg');
+    background: linear-gradient(rgba(8, 53, 46), rgba(238, 255, 0, 0.479), rgba(8, 53, 46));
     color: #fff;
 }
 
