@@ -122,6 +122,10 @@ img {
     float: right;
 }
 
+.smoothie-desc {
+    color: #a5a5a5;
+}
+
 .info-container {
     margin-top: 60px;
 }
