@@ -25,10 +25,8 @@ body {
 }
 
 .logo-container {
-    display: grid;
+    display: flex;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
 }
 
 .logo a {
@@ -208,11 +206,13 @@ img {
     color: #f9c700;
 }
 
-@media screen and (max-width:400px) {
-    .navbar-collapse {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
+@media screen and (max-width:448px) {
+    .logo-img {
+        display: none;
+    }
+
+    .logo{
+        padding: 5px;
     }
 }
 
@@ -220,5 +220,10 @@ img {
     .menu-btn{
         float: none;
         margin-left: 10px;
+    }
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
     }
 }
