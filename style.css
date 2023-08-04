@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*General Rules*/
 .gold-font {
     color: #f9c700;
@@ -21,12 +25,13 @@ body {
 }
 
 .navbar {
-    background-color: rgba(248, 248, 248, 0.4) !important;
+    background-color: #fff !important;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
+    margin-left: 20px;
 }
 
 .logo a {
@@ -65,7 +70,7 @@ img {
 }
 
 .img-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/cafe.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.2)), url('images/cafe.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -101,7 +106,8 @@ img {
     color: #f9c700;
 }
 
-.motto-para, .menu-btn {
+.motto-para,
+.menu-btn {
     display: inline-block;
 }
 
@@ -109,11 +115,11 @@ img {
     margin: 60px 0;
 }
 
-.menu-container{
+.menu-container {
     border: 2px solid #000;
     border-radius: 5px;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/cafe-layout-bg.jpg')  center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/cafe-layout-bg.jpg') center center;
 }
 
 .price {
@@ -133,7 +139,7 @@ img {
     color: #fff;
 }
 
-.drinks{
+.drinks {
     display: grid;
 }
 
@@ -145,13 +151,14 @@ img {
 .menu-sub-heading {
     text-decoration: underline;
 }
+
 .contact-table {
     min-height: 300px;
-    background: linear-gradient(rgba(8, 53, 46), rgba(238, 255, 0, 0.479), rgba(8, 53, 46));
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url('images/coffee-beans.jpg') center center;
     color: #fff;
 }
 
-.contact-list-group{
+.contact-list-group {
     text-align: left;
 }
 
@@ -167,19 +174,20 @@ img {
 .icon-fb {
     color: #0066ff;
 }
+
 .icon-insta {
     color: #aa00f9;
 }
 
 .about-table {
     min-height: 300px;
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('images/iguana-cafe-img.JPG') center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url('images/iguana-cafe-img.JPG') center center;
     color: #fff;
 }
 
 .hours-table {
     min-height: 300px;
-    background: linear-gradient(rgba(8, 53, 46), rgba(238, 255, 0, 0.479), rgba(8, 53, 46));
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url('images/dark-coffee-cup.jpg') center center;
     color: #fff;
 }
 
@@ -200,10 +208,25 @@ img {
     font-size: 50px;
 }
 
-.footer {
+footer {
     margin: 20px 0px;
     text-align: center;
     color: #f9c700;
+}
+
+footer a {
+    float: right;
+}
+
+.to-top-btn {
+    border: 1px solid #000;
+    width: fit-content;
+    color: #f9c700;
+}
+
+.to-top-btn:hover {
+    border: 1px solid #f9c700;
+    transition: 1s ease-in-out;
 }
 
 @media screen and (max-width:448px) {
@@ -211,16 +234,24 @@ img {
         display: none;
     }
 
-    .logo{
+    .logo {
         padding: 5px;
+    }
+
+    footer span,
+    footer a {
+        display: block;
+        float: none;
+        margin: 10px 0;
     }
 }
 
 @media screen and (max-width:991px) {
-    .menu-btn{
+    .menu-btn {
         float: none;
         margin-left: 10px;
     }
+
     .navbar-collapse {
         display: flex;
         flex-direction: column;
