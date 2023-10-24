@@ -118,7 +118,7 @@ img {
 }
 
 #menu {
-    margin: 60px 0;
+    padding: 7rem 0;
 }
 
 .menu-container {
@@ -146,9 +146,7 @@ img {
 
 /*=========== Info section============= */
 
-.info-container {
-    margin-top: 60px;
-}
+.info-container {}
 
 .info-table {
     border: 2px solid #fff;
@@ -224,9 +222,10 @@ img {
 footer {
     background: #062924;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 2rem;
+    gap: 25rem;
+    padding: 1rem;
     color: #f9c700;
 }
 
