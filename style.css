@@ -84,24 +84,28 @@ img {
     align-items: center;
 }
 
+.motto-wrapper a {}
+
 .motto {
     font-size: 2.4rem;
 }
 
 .menu-btn {
     font-size: 1.2rem;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 3rem;
+    padding: .5rem 1rem;
     background-color: #08352e;
     color: #f9c700;
     float: right;
+    transition: .5s ease;
 }
 
 .menu-btn:hover {
-    background-color: #062924;
+    box-shadow: 0 0 .5rem #f9c700;
+    scale: 1.05;
 }
 
-.menu-btn a {
+.menu-btn {
     text-decoration: none;
     color: #f9c700;
 }
@@ -209,24 +213,26 @@ img {
 }
 
 footer {
-    margin: 20px 0px;
-    text-align: center;
+    background: #062924;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
     color: #f9c700;
-}
-
-footer a {
-    float: right;
 }
 
 .to-top-btn {
     border: 1px solid #000;
+    border-radius: 3rem;
     width: fit-content;
     color: #f9c700;
+    transition: .5s ease;
 }
 
 .to-top-btn:hover {
     border: 1px solid #f9c700;
-    transition: 1s ease-in-out;
+    box-shadow: 0 0 .5rem #f9c700;
 }
 
 @media screen and (max-width:448px) {
