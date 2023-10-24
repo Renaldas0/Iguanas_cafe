@@ -206,7 +206,7 @@ img {
 
 .location-header {
     color: #f9c700;
-    font-size: 30px;
+    font-size: 2.5rem !important;
 }
 
 #location {
@@ -270,5 +270,9 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: start;
+    }
+
+    .location-header {
+        font-size: 1.4rem !important;
     }
 }
