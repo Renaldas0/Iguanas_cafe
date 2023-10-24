@@ -1,359 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS CDN -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/0fc8d7e1ea.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Iguana's Cafe Killarney</title>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
-      <div class="container-fluid">
-        <div class="logo-container">
-          <h1 class="logo logo-text">
-            <a href="#home">Iguana's <em>cafe</em></a>
-          </h1>
-          <img class="logo-img" src="images/logo.png" alt="" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul
-            class="navbar-nav list-group list-group-horizontal list-unstyled nav-links"
-          >
-            <li class="nav-item list-item nav-link">
-              <a class="nav-link" href="#menu">Menu</a>
-            </li>
-            <li class="nav-item list-item nav-link">
-              <a class="nav-link" href="#about">Our Coffee</a>
-            </li>
-            <li class="nav-item list-item nav-link">
-              <a class="nav-link" href="#location">Location</a>
-            </li>
-            <li class="nav-item list-item nav-link">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <meta name="keywords"
+    content="cafe coffee coffee-shop shop killarney kerry beans, coffee-beans, iced-coffee tea desserts takeaway sit-in">
+  <script src="https://kit.fontawesome.com/0fc8d7e1ea.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="./images/logo.png" />
+  <title>Iguana's Cafe Killarney</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 sticky-top">
+    <div class="container-fluid">
+      <div class="logo-container">
+        <h1 class="logo logo-text">
+          <a href="#home">Iguana's <em>cafe</em></a>
+        </h1>
+        <img class="logo-img" src="images/logo.png" alt="" />
       </div>
-    </nav>
-    <div class="container-fluid img-container g-0" id="home">
-      <div class="motto-wrapper">
-        <h2 class="text-capitalize text-light motto">
-          Start your day with a Delicious cup of coffee!
-        </h2>
-        <p class="motto-para">
-          Check our ENTIRE menu with the click of a button<span class="icon"
-            ><i class="fa-solid fa-chevron-right"></i
-          ></span>
-        </p>
-        <button class="menu-btn"><a href="#menu">Full Menu</a></button>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav list-group list-group-horizontal list-unstyled nav-links">
+          <li class="nav-item list-item nav-link">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item list-item nav-link">
+            <a class="nav-link" href="#about">Our Coffee</a>
+          </li>
+          <li class="nav-item list-item nav-link">
+            <a class="nav-link" href="#location">Location</a>
+          </li>
+          <li class="nav-item list-item nav-link">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <section class="container-fluid" id="menu">
-      <div class="row">
-        <div class="col-md-10 col-12 offset-md-1 menu-container">
-          <div class="row">
-            <div class="col-md-4 col-12 drinks">
-              <h4 class="text-center gold-font drinks">Drinks</h4>
-              <h5 class="menu-sub-heading">Hot Drinks</h5>
-              <ul class="list-unstyled">
-                <li class="menu-item">
-                  Espresso<span class="price">€3.00</span>
-                </li>
-                <li class="menu-item">
-                  Americano <span class="price">€3.20</span>
-                </li>
-                <li class="menu-item">
-                  Cappuccino <span class="price">€3.60</span>
-                </li>
-                <li class="menu-item">
-                  Latte <span class="price">€3.60</span>
-                </li>
-                <li class="menu-item">
-                  Flat White <span class="price">€3.40</span>
-                </li>
-                <li class="menu-item">
-                  Mocha <span class="price">€3.90</span>
-                </li>
-                <li class="menu-item">
-                  Cortado <span class="price">€3.20</span>
-                </li>
-                <li class="menu-item">
-                  Matcha Latte <span class="price">€4.20</span>
-                </li>
-                <li class="menu-item">
-                  Chai Latte <span class="price">€3.90</span>
-                </li>
-                <li class="menu-item">
-                  Hot Chocolate <span class="price">€3.80</span>
-                </li>
-                <li class="menu-item">
-                  Kids Hot Choc <span class="price">€2.80</span>
-                </li>
-                <li class="menu-item">
-                  Babycino <span class="price">€1.20</span>
-                </li>
-                <li class="menu-item">
-                  Irish breakfast Tea <span class="price">€2.80</span>
-                </li>
-                <li class="menu-item">
-                  Herbal Tea <span class="price">€3.00</span>
-                </li>
-              </ul>
-              <h5 class="menu-sub-heading">Cold Drinks</h5>
-              <ul class="list-unstyled">
-                <li class="menu-item">
-                  Iced Chai Latte <span class="price">€4.50</span>
-                </li>
-                <li class="menu-item">
-                  Iced Matcha Latte <span class="price">€4.50</span>
-                </li>
-                <li class="menu-item">
-                  Iced Flavoured Latte <span class="price">€4.50</span>
-                </li>
-                <li class="menu-item">
-                  Iced Chocolate <span class="price">€4.00</span>
-                </li>
-                <li class="menu-item">
-                  Iced Cofee <span class="price">€3.50</span>
-                </li>
-                <li class="menu-item">
-                  Iced Tea <span class="price">€3.00</span>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4 col-12 food">
-              <h4 class="text-center gold-font">Food</h4>
-              <h5 class="menu-sub-heading">Hot Food</h5>
-              <ul class="list-unstyled">
-                <li class="menu-item">
-                  Toasted Sandwich & crisps <span class="price">€6.00</span>
-                </li>
-              </ul>
-              <h5 class="menu-sub-heading">Desserts</h5>
-              <ul class="list-unstyled">
-                <li class="menu-item">
-                  Banana Bread <span class="price">€3.00</span>
-                </li>
-                <li class="menu-item">
-                  Lemon Drizzle <span class="price">€3.20</span>
-                </li>
-                <li class="menu-item">
-                  Energy Ball <span class="price">€2.20</span>
-                </li>
-                <li class="menu-item">
-                  Cookie <span class="price">€2.50</span>
-                </li>
-                <li class="menu-item">
-                  Chocolate Fudge Brownie <span class="price">€3.20</span>
-                </li>
-                <li class="menu-item">
-                  Vegan Raspberry Crumble <span class="price">€4.00</span>
-                </li>
-                <li class="menu-item">
-                  Peanut Caramel <span class="price">€3.50</span>
-                </li>
-                <li class="menu-item">
-                  Carrot Cake <span class="price">€4.00</span>
-                </li>
-                <li class="menu-item">
-                  Flapjack <span class="price">€3.50</span>
-                </li>
-                <li class="menu-item">
-                  Oreo Cheese Cake <span class="price">€5.00</span>
-                </li>
-                <li class="menu-item">
-                  Peanut Rawball <span class="price">€2.20</span>
-                </li>
-                <li class="menu-item">
-                  Coconut Rawball <span class="price">€2.20</span>
-                </li>
-                <li class="menu-item">
-                  Granola pot <span class="price">€5.00</span>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4 col-12 add-ons">
-              <h4 class="text-center gold-font">Smoothies: €6.50</h4>
-              <h6 class="text-center">Add coffee <span>+€1.00</span></h6>
-              <br class="mt-3" />
-              <ul class="list-unstyled mt-2">
-                <li class="menu-item text-center">
-                  Breakfast smoothie <br />
-                  <span class="smoothie-desc"
-                    >(Peanut butter, oats, banana & milk)</span
-                  >
-                </li>
-                <li class="menu-item text-center">
-                  Boost smoothie <br />
-                  <span class="smoothie-desc"
-                    >(Spinach, kiwi, mango, kale & apple juice)</span
-                  >
-                </li>
-                <li class="menu-item text-center">
-                  Mixed berries & banana smoothie <br />
-                  <span class="smoothie-desc"
-                    >(Mixed berry, banana & apple juice)</span
-                  >
-                </li>
-              </ul>
-              <h4 class="text-center gold-font">Add-ons</h4>
-              <br class="mt-3" />
-              <ul class="list-unstyled mt-2">
-                <li class="menu-item">
-                  Extra shot <span class="price">€1.00</span>
-                </li>
-                <li class="menu-item">
-                  Syrup - Almond / Caramel / Hazelnut
-                  <span class="price">€0.50</span>
-                </li>
-                <li class="menu-item">
-                  Oat milk /Almond milk / Coconut milk
-                  <span class="price">€0.50</span>
-                </li>
-              </ul>
-            </div>
+  </nav>
+
+  <div class="container-fluid img-container g-0" id="home">
+    <div class="motto-wrapper">
+      <h2 class="text-capitalize text-light motto">
+        Start your day with a Delicious cup of coffee!
+      </h2>
+      <p class="motto-para">
+        Check our ENTIRE menu with the click of a button<span class="icon"><i
+            class="fa-solid fa-chevron-right"></i></span>
+      </p>
+      <a href="#menu" class="menu-btn">Full Menu</a>
+    </div>
+  </div>
+
+  <!--Menu Section-->
+  <section class="container-fluid" id="menu">
+    <div class="row">
+      <div class="col-md-10 col-12 offset-md-1 menu-container">
+        <div class="row">
+          <div class="col-md-4 col-12 drinks">
+            <h4 class="text-center gold-font drinks">Drinks</h4>
+            <h5 class="menu-sub-heading">Hot Drinks</h5>
+            <ul class="list-unstyled">
+              <li class="menu-item">
+                Espresso<span class="price">€3.00</span>
+              </li>
+              <li class="menu-item">
+                Americano <span class="price">€3.20</span>
+              </li>
+              <li class="menu-item">
+                Cappuccino <span class="price">€3.60</span>
+              </li>
+              <li class="menu-item">
+                Latte <span class="price">€3.60</span>
+              </li>
+              <li class="menu-item">
+                Flat White <span class="price">€3.40</span>
+              </li>
+              <li class="menu-item">
+                Mocha <span class="price">€3.90</span>
+              </li>
+              <li class="menu-item">
+                Cortado <span class="price">€3.20</span>
+              </li>
+              <li class="menu-item">
+                Matcha Latte <span class="price">€4.20</span>
+              </li>
+              <li class="menu-item">
+                Chai Latte <span class="price">€3.90</span>
+              </li>
+              <li class="menu-item">
+                Hot Chocolate <span class="price">€3.80</span>
+              </li>
+              <li class="menu-item">
+                Kids Hot Choc <span class="price">€2.80</span>
+              </li>
+              <li class="menu-item">
+                Babycino <span class="price">€1.20</span>
+              </li>
+              <li class="menu-item">
+                Irish breakfast Tea <span class="price">€2.80</span>
+              </li>
+              <li class="menu-item">
+                Herbal Tea <span class="price">€3.00</span>
+              </li>
+            </ul>
+            <h5 class="menu-sub-heading">Cold Drinks</h5>
+            <ul class="list-unstyled">
+              <li class="menu-item">
+                Iced Chai Latte <span class="price">€4.50</span>
+              </li>
+              <li class="menu-item">
+                Iced Matcha Latte <span class="price">€4.50</span>
+              </li>
+              <li class="menu-item">
+                Iced Flavoured Latte <span class="price">€4.50</span>
+              </li>
+              <li class="menu-item">
+                Iced Chocolate <span class="price">€4.00</span>
+              </li>
+              <li class="menu-item">
+                Iced Cofee <span class="price">€3.50</span>
+              </li>
+              <li class="menu-item">
+                Iced Tea <span class="price">€3.00</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12 food">
+            <h4 class="text-center gold-font">Food</h4>
+            <h5 class="menu-sub-heading">Hot Food</h5>
+            <ul class="list-unstyled">
+              <li class="menu-item">
+                Toasted Sandwich & crisps <span class="price">€6.00</span>
+              </li>
+            </ul>
+            <h5 class="menu-sub-heading">Desserts</h5>
+            <ul class="list-unstyled">
+              <li class="menu-item">
+                Banana Bread <span class="price">€3.00</span>
+              </li>
+              <li class="menu-item">
+                Lemon Drizzle <span class="price">€3.20</span>
+              </li>
+              <li class="menu-item">
+                Energy Ball <span class="price">€2.20</span>
+              </li>
+              <li class="menu-item">
+                Cookie <span class="price">€2.50</span>
+              </li>
+              <li class="menu-item">
+                Chocolate Fudge Brownie <span class="price">€3.20</span>
+              </li>
+              <li class="menu-item">
+                Vegan Raspberry Crumble <span class="price">€4.00</span>
+              </li>
+              <li class="menu-item">
+                Peanut Caramel <span class="price">€3.50</span>
+              </li>
+              <li class="menu-item">
+                Carrot Cake <span class="price">€4.00</span>
+              </li>
+              <li class="menu-item">
+                Flapjack <span class="price">€3.50</span>
+              </li>
+              <li class="menu-item">
+                Oreo Cheese Cake <span class="price">€5.00</span>
+              </li>
+              <li class="menu-item">
+                Peanut Rawball <span class="price">€2.20</span>
+              </li>
+              <li class="menu-item">
+                Coconut Rawball <span class="price">€2.20</span>
+              </li>
+              <li class="menu-item">
+                Granola pot <span class="price">€5.00</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12 add-ons">
+            <h4 class="text-center gold-font">Smoothies: €6.50</h4>
+            <h6 class="text-center">Add coffee <span>+€1.00</span></h6>
+            <br class="mt-3" />
+            <ul class="list-unstyled mt-2">
+              <li class="menu-item text-center">
+                Breakfast smoothie <br />
+                <span class="smoothie-desc">(Peanut butter, oats, banana & milk)</span>
+              </li>
+              <li class="menu-item text-center">
+                Boost smoothie <br />
+                <span class="smoothie-desc">(Spinach, kiwi, mango, kale & apple juice)</span>
+              </li>
+              <li class="menu-item text-center">
+                Mixed berries & banana smoothie <br />
+                <span class="smoothie-desc">(Mixed berry, banana & apple juice)</span>
+              </li>
+            </ul>
+            <h4 class="text-center gold-font">Add-ons</h4>
+            <br class="mt-3" />
+            <ul class="list-unstyled mt-2">
+              <li class="menu-item">
+                Extra shot <span class="price">€1.00</span>
+              </li>
+              <li class="menu-item">
+                Syrup - Almond / Caramel / Hazelnut
+                <span class="price">€0.50</span>
+              </li>
+              <li class="menu-item">
+                Oat milk /Almond milk / Coconut milk
+                <span class="price">€0.50</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contact" class="container-fluid">
-      <div class="row">
-        <div class="col-md-10 offset-md-1 info-container">
-          <div class="row">
-            <div class="col-md-4 col-12 info-table contact-table">
-              <h5 class="text-center mt-3">
-                Contact Us<span class="icon"
-                  ><i class="fa-solid fa-phone"></i
-                ></span>
-              </h5>
-              <ul class="contact-list-group">
-                <li class="contact-list-item">
-                  <a href="mailto:iguanascafe2022@gmail.com" class="text-decoration-none text-light">Email: iguanascafe2022@gmail.com</a>
-                </li>
-                <li class="contact-list-item"><a href="tel:Phone: +353 83 057 1037" class="text-decoration-none text-light">+353 83 057 1037</a></li>
-                <li class="contact-list-item">
-                  <address>
-                    Address: Iguanas Cafe, Killarney Racecourse, Ross Road,
-                    Killarney, Ireland
-                  </address>
-                </li>
-                <li class="contact-list-item">
-                  <a
-                    href="https://www.facebook.com/iguanascafe/"
-                    class="text-decoration-none media-icon icon-fb"
-                    target="_blank"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
-                  <a
-                    href="https://www.instagram.com/iguanascafe/"
-                    class="text-decoration-none media-icon icon-insta"
-                    target="_blank"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4 col-12 info-table about-table" id="about">
-              <h5 class="text-center mt-3">About Our Coffee</h5>
-              <p>
-                The coffee beans we use at <em>Iguana's cafe</em> are the
-                <strong
-                  ><a
-                    class="text-decoration-none"
-                    href="https://badgeranddodo.ie/"
-                    >Badger & DoDo</a
-                  ></strong
-                >
-                coffee beans that are packed with flavour!
-              </p>
-              <p>
-                Badger & DoDo have been sourcing the best coffee beans since
-                2008 from: Kenya, Uganda, Rwanda, Ethiopia, Colombia, Brazil,
-                Peru, Mexico, Ecuador, El Salvador, Guatemala, Costa Rica,
-                Nicaragua, Honduras, Panama, Tanzania, Malawi and Indonesia.
-              </p>
-              <p>We currently use coffee beans sourced from Columbia.....</p>
-            </div>
-            <div class="col-md-4 col-12 info-table hours-table">
-              <h5 class="text-center mt-3">Opening Hours</h5>
-              <ul class="times-list-group">
-                <li class="times-list-item">
-                  Monday: <span class="time">8am-5pm</span>
-                </li>
-                <li class="times-list-item">
-                  Tuesday: <span class="time">8am-5pm</span>
-                </li>
-                <li class="times-list-item">
-                  Wednesday: <span class="time">8am-5pm</span>
-                </li>
-                <li class="times-list-item">
-                  Thursday: <span class="time">8am-5pm</span>
-                </li>
-                <li class="times-list-item">
-                  Friday: <span class="time">8am-5pm</span>
-                </li>
-                <li class="times-list-item">
-                  Saturday: <span class="time">8am-5pm</span>
-                </li>
-                <li class="times-list-item">
-                  Sunday: <span class="time">8am-5pm</span>
-                </li>
-              </ul>
-            </div>
+  <!--Info Table Section-->
+  <section id="contact" class="container-fluid contact">
+    <div class="row">
+      <div class="col-md-10 offset-md-1 info-container">
+        <div class="row">
+          <div class="col-md-4 col-12 info-table contact-table">
+            <h5 class="text-center mt-3">
+              Contact Us<span class="icon"><i class="fa-solid fa-phone"></i></span>
+            </h5>
+            <ul class="contact-list-group">
+              <li class="contact-list-item">
+                <a href="mailto:iguanascafe2022@gmail.com" class="text-decoration-none text-light">Email:
+                  iguanascafe2022@gmail.com</a>
+              </li>
+              <li class="contact-list-item"><a href="tel:Phone: +353 83 057 1037"
+                  class="text-decoration-none text-light">+353 83 057 1037</a></li>
+              <li class="contact-list-item">
+                <address>
+                  Address: Iguanas Cafe, Killarney Racecourse, Ross Road,
+                  Killarney, Ireland
+                </address>
+              </li>
+              <li class="contact-list-item">
+                <a href="https://www.facebook.com/iguanascafe/" class="text-decoration-none media-icon icon-fb"
+                  target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/iguanascafe/" class="text-decoration-none media-icon icon-insta"
+                  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12 info-table about-table" id="about">
+            <h5 class="text-center mt-3">About Our Coffee</h5>
+            <p>
+              The coffee beans we use at <em>Iguana's cafe</em> are the
+              <strong><a class="text-decoration-none" href="https://badgeranddodo.ie/">Badger & DoDo</a></strong>
+              coffee beans that are packed with flavour!
+            </p>
+            <p>
+              Badger & DoDo have been sourcing the best coffee beans since
+              2008 from: Kenya, Uganda, Rwanda, Ethiopia, Colombia, Brazil,
+              Peru, Mexico, Ecuador, El Salvador, Guatemala, Costa Rica,
+              Nicaragua, Honduras, Panama, Tanzania, Malawi and Indonesia.
+            </p>
+            <p>We currently use coffee beans sourced from Columbia.....</p>
+          </div>
+          <div class="col-md-4 col-12 info-table hours-table">
+            <h5 class="text-center mt-3">Opening Hours</h5>
+            <ul class="times-list-group">
+              <li class="times-list-item">
+                Monday: <span class="time">8am-5pm</span>
+              </li>
+              <li class="times-list-item">
+                Tuesday: <span class="time">8am-5pm</span>
+              </li>
+              <li class="times-list-item">
+                Wednesday: <span class="time">8am-5pm</span>
+              </li>
+              <li class="times-list-item">
+                Thursday: <span class="time">8am-5pm</span>
+              </li>
+              <li class="times-list-item">
+                Friday: <span class="time">8am-5pm</span>
+              </li>
+              <li class="times-list-item">
+                Saturday: <span class="time">8am-5pm</span>
+              </li>
+              <li class="times-list-item">
+                Sunday: <span class="time">8am-5pm</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
-    <section class="container-fluid">
-      <div id="location" class="row g-0">
-        <h4 class="location-header text-center">Find us Here!</h4>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.969254079971!2d-9.517301587562969!3d52.048596585960574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48453deae0f00533%3A0x43d6d0dbc4fc5718!2sIguanas%20cafe!5e0!3m2!1sen!2sie!4v1682783171911!5m2!1sen!2sie"
-          height="450px"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          class="col-md-8 offset-md-2"
-        ></iframe>
-      </div>
-    </section>
-    <footer>
-      <span>Copyright &copy; 2023 Iguana cafe</span>
-      <a href="#top" type="button" class="btn to-top-btn">Back to top</a>
-    </footer>
+    </div>
+    <!--Google Maps-->
+    <div id="location" class="row g-0">
+      <h4 class="location-header text-center">Find Iguana's Cafe Here!</h4>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.969254079971!2d-9.517301587562969!3d52.048596585960574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48453deae0f00533%3A0x43d6d0dbc4fc5718!2sIguanas%20cafe!5e0!3m2!1sen!2sie!4v1682783171911!5m2!1sen!2sie"
+        height="450px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        class="col-md-8 offset-md-2"></iframe>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright &copy; 2023 Iguana cafe</p>
+    <a href="#top" type="button" class="btn to-top-btn">Back to top</a>
+  </footer>
 
-    <!-- Bootstrap JS CDN -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-  </body>
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>

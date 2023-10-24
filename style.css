@@ -24,6 +24,10 @@ body {
     background-color: #08352e;
 }
 
+.sticky {
+    border-bottom: 1px solid #f9c700;
+}
+
 .navbar {
     background-color: #fff !important;
 }
@@ -55,7 +59,7 @@ body {
     text-decoration: none;
     color: #08352e;
     font-size: 0.9rem;
-    transition: color .5s ease-in-out, box-shadow .4s ease-in-out;
+    transition: color .5s ease, box-shadow .4s ease;
 }
 
 .list-item a:hover {
@@ -90,18 +94,20 @@ img {
 
 .menu-btn {
     font-size: 1.2rem;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 3rem;
+    padding: .5rem 1rem;
     background-color: #08352e;
     color: #f9c700;
     float: right;
+    transition: .5s ease;
 }
 
 .menu-btn:hover {
-    background-color: #062924;
+    box-shadow: 0 0 .5rem #f9c700;
+    scale: 1.05;
 }
 
-.menu-btn a {
+.menu-btn {
     text-decoration: none;
     color: #f9c700;
 }
@@ -116,10 +122,14 @@ img {
 }
 
 .menu-container {
-    border: 2px solid #000;
-    border-radius: 5px;
+    border-radius: 2rem;
+    padding: 2rem 1rem;
     color: #fff;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/cafe-layout-bg.jpg') center center;
+}
+
+.menu-sub-heading {
+    text-decoration: underline;
 }
 
 .price {
@@ -130,6 +140,12 @@ img {
     color: #a5a5a5;
 }
 
+.drinks {
+    display: grid;
+}
+
+/*=========== Info section============= */
+
 .info-container {
     margin-top: 60px;
 }
@@ -139,17 +155,14 @@ img {
     color: #fff;
 }
 
-.drinks {
-    display: grid;
-}
-
 .times-list-item {
     list-style: none;
 }
 
 /*=======================================Info Tables===========================*/
-.menu-sub-heading {
-    text-decoration: underline;
+
+.contact {
+    background: #062924;
 }
 
 .contact-table {
@@ -193,7 +206,7 @@ img {
 
 .location-header {
     color: #f9c700;
-    font-size: 30px;
+    font-size: 2.5rem !important;
 }
 
 #location {
@@ -209,24 +222,25 @@ img {
 }
 
 footer {
-    margin: 20px 0px;
-    text-align: center;
+    background: #062924;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
     color: #f9c700;
-}
-
-footer a {
-    float: right;
 }
 
 .to-top-btn {
     border: 1px solid #000;
+    border-radius: 3rem;
     width: fit-content;
     color: #f9c700;
+    transition: .5s ease;
 }
 
 .to-top-btn:hover {
     border: 1px solid #f9c700;
-    transition: 1s ease-in-out;
+    box-shadow: 0 0 .5rem #f9c700;
 }
 
 @media screen and (max-width:448px) {
@@ -256,5 +270,9 @@ footer a {
         display: flex;
         flex-direction: column;
         justify-content: start;
+    }
+
+    .location-header {
+        font-size: 1.4rem !important;
     }
 }
