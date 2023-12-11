@@ -10,6 +10,11 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --white: #fff;
+    --gold: #f9c700;
+}
+
 /*General Rules*/
 .gold-font {
     color: #f9c700;
@@ -21,15 +26,25 @@ html {
 
 body {
     font-family: 'Libre Baskerville', serif;
-    background-color: #08352e;
+    background-color: var(--white);
 }
 
-.sticky {
-    border-bottom: 1px solid #f9c700;
+.inline-container {
+    padding-inline: 10%;
+}
+
+header {
+    height: 90px;
 }
 
 .navbar {
-    background-color: #fff !important;
+    background-color: var(--white) !important;
+    border-bottom: 1px solid var(--gold);
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
 }
 
 .logo-container {
@@ -40,25 +55,16 @@ body {
 
 .logo a {
     color: #f9c700;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     text-decoration: none;
-}
-
-.logo-img {
-    width: 55px;
-    height: 65px;
-}
-
-.navbar-collapse {
-    display: flex;
-    justify-content: end;
 }
 
 .list-item a {
-    padding: 0 10px;
+    padding: 5px 10px;
     text-decoration: none;
     color: #08352e;
     font-size: 0.9rem;
+    border-radius: 1em;
     transition: color .5s ease, box-shadow .4s ease;
 }
 
@@ -67,29 +73,33 @@ body {
     box-shadow: inset 120px 0 0 0 #08352e;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    max-height: 90vh;
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.img-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.2)), url('images/cafe.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 80vh;
-    position: relative;
-    text-align: center;
-    color: white;
+.hero-img-container {
+    width: 50%;
+    height: 50%;
+    clip-path: ellipse(50% 46% at 50% 49%);
+}
+
+.hero-img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.motto-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 60px;
 }
 
 .motto {
-    font-size: 2.4rem;
+    font-size: 2rem;
+    color: var(--gold);
 }
 
 .menu-btn {
@@ -98,23 +108,16 @@ img {
     padding: .5rem 1rem;
     background-color: #08352e;
     color: #f9c700;
-    float: right;
     transition: .5s ease;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
 }
 
 .menu-btn:hover {
     box-shadow: 0 0 .5rem #f9c700;
     scale: 1.05;
-}
-
-.menu-btn {
-    text-decoration: none;
-    color: #f9c700;
-}
-
-.motto-para,
-.menu-btn {
-    display: inline-block;
 }
 
 #menu {
@@ -145,8 +148,6 @@ img {
 }
 
 /*=========== Info section============= */
-
-.info-container {}
 
 .info-table {
     border: 2px solid #fff;
@@ -202,31 +203,12 @@ img {
     color: #fff;
 }
 
-.location-header {
-    color: #f9c700;
-    font-size: 2.5rem !important;
-}
-
 #location {
     margin-top: 60px;
 }
 
-#location iframe {
-    border: 5px solid #f9c700;
-}
-
 #contact h4 {
     font-size: 50px;
-}
-
-footer {
-    background: #062924;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25rem;
-    padding: 1rem;
-    color: #f9c700;
 }
 
 .to-top-btn {
