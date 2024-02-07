@@ -17,3 +17,8 @@
 - Targetting all users with the use of attributes and alt tags
 - Simple navigation for screen readers
 
+### Technologies used
+- HTML5
+- CSS3
+- Bootstrap
+- Javascript 
